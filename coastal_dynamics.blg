@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2012)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: coastal_dynamics.aux
+The style file: newapa.bst
+Database file #1: /Users/rob/Dropbox/Documents/hetland.bib
+Warning--I didn't find a database entry for "cushman.beckers:09"
+Warning--I didn't find a database entry for "cushman-roisin.beckers:11"
+Warning--I didn't find a database entry for "hetland:10"
+Warning--I didn't find a database entry for "horner-devine.ea:08"
+Warning--I didn't find a database entry for "hetland:05b"
+`author' is a missing field, not a string, for entry valle-levinson:10
+while executing---line 1385 of file newapa.bst
+You can't pop an empty literal stack for entry cenedese.ea:04
+while executing---line 1459 of file newapa.bst
+You've used 53 entries,
+            2708 wiz_defined-function locations,
+            892 strings with 11501 characters,
+and the built_in function-call counts, 23889 in all, are:
+= -- 2189
+> -- 902
+< -- 45
++ -- 319
+- -- 318
+* -- 2326
+:= -- 4460
+add.period$ -- 159
+call.type$ -- 53
+change.case$ -- 415
+chr.to.int$ -- 52
+cite$ -- 53
+duplicate$ -- 811
+empty$ -- 1679
+format.name$ -- 415
+if$ -- 4404
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 61
+newline$ -- 268
+num.names$ -- 213
+pop$ -- 255
+preamble$ -- 1
+purify$ -- 477
+quote$ -- 0
+skip$ -- 586
+stack$ -- 0
+substring$ -- 2056
+swap$ -- 175
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 300
+warning$ -- 0
+while$ -- 213
+width$ -- 0
+write$ -- 682
+(There were 2 error messages)
