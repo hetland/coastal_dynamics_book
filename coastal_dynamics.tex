@@ -253,7 +253,7 @@ Such an operation, applied to the momentum equations, is referred to as {\it Rey
 \end{equation}
 where $\phi$ is some space- and time-dependent property of the flow, and $c$ is a constant.  These properties can be easily verified by reverting to the integral definition of the averaging operator, $\langle\cdot\rangle$. Of course, the time derivative in the third relation could be replaced with a derivative with respect to any other independent variable.  
 
-Using this definition to average all of the terms in equations~\ref{eq:u-full} through~\ref{eq:temp} is straightforward for all the terms that are linear, where, for example, the pressure gradient, $p_x$, is simply replaced with the gradient of the time-averaged pressure, $\langle p \range_x$.  The advective terms\footnote{Typically the {\it molecular} diffusivity and viscosity terms are defined as, \emph{e.g.}, $\mu \partial^2 u/\partial z^2$; second order terms, but linear, as the molecular diffusivity or viscosity is generally treated as constant}, on the other hand, are non-linear, and so averaging these terms is not straightforward.  This is because, generally
+Using this definition to average all of the terms in equations~\ref{eq:u-full} through~\ref{eq:temp} is straightforward for all the terms that are linear, where, for example, the pressure gradient, $p_x$, is simply replaced with the gradient of the time-averaged pressure, $\langle p \rangle_x$.  The advective terms\footnote{Typically the {\it molecular} diffusivity and viscosity terms are defined as, \emph{e.g.}, $\mu \partial^2 u/\partial z^2$; second order terms, but linear, as the molecular diffusivity or viscosity is generally treated as constant}, on the other hand, are non-linear, and so averaging these terms is not straightforward.  This is because, generally
 \begin{equation}
     \langle\phi\,\psi\rangle \ne \langle\phi\rangle\langle\psi\rangle,
 \end{equation}
@@ -1433,7 +1433,7 @@ Thus, the only change that needs to be made for the momentum equations is to rep
     (u h)_x + (v h)_y &= -h_t
 \end{align}
 
-\begin{figure}[\begin{figure}[bt]
+\begin{figure}[bt]
   \centering
     \includegraphics[width=5in]{reduced_gravity_variables.pdf}
     \caption{Variable definition for the reduced gravity model.}
@@ -2190,7 +2190,7 @@ Imagine a tall, thin cylinder of water with a negative density anomaly of $\Delt
 
 Consider a horizontally uniform current entering a coastal ocean through a channel.  As there is no horizontal shear in the flow ($\xi = 0$), the potential vorticity of this inflowing water is constant.  There are two coastal ocean geometries to consider, shown in the figure below.  The first domain (left panel) has a step-like bathymetry with three adjacent regions of flat bathymetry.  The second domain (right panel) is continuously sloping.  In both cases, the incoming current enters the coastal ocean at a depth greater than the channel depth, and both the incoming current and ambient coastal water have the same density.  Use potential vorticity conservation to calculate the location and velocity structure of the current as it leaves each of these domains.  You do not need to consider the details of the flow within the domain, especially as the flow turns corners in its path toward the exit.  Remember, though, that the flow cannot have infinite shear.  There can be kinks in the flow structure (\emph{i.e.}, the flow may be a triangle-shaped, pointed jet), but there cannot be a step from a finite flow value to zero (\emph{i.e.}, the triangle-shaped jet must go to zero at the edges).  You may also assume the only transport into the domain is from the channel source; that is, there is no mass transport into the domain through the open boundaries.  You may also assume that the Coriolis parameter is constant throughout the domain ($f=10^{-4}$~s$^{-1}$).
 
-\begin{figure}[\begin{figure}[h]
+\begin{figure}[h]
   \centering
     \includegraphics[width=2.9in]{ideal1.pdf}\hfill
     \includegraphics[width=2.9in]{ideal2.pdf}
